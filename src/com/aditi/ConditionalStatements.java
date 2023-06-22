@@ -4,7 +4,7 @@ import java.util.*;
 public class ConditionalStatements {
     public static void main(String[] args) {
 
-        //CONDITIONAL STATEMENT - if-else
+        //CONDITIONAL STATEMENT - (if-else)
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter your age: ");
         int age=sc.nextInt();
