@@ -19,12 +19,12 @@ public class TwoDimensionalArrays {
 
 
         //2-D Array Matrix Representation
-//        for(int i=0; i<rows; i++){
-//            for(int j=0; j<columns; j++){
-//                System.out.print(matrix[i][j] + " ");
-//            }
-//            System.out.println(" ");
-//        }
+        for(int i=0; i<rows; i++){
+            for(int j=0; j<columns; j++){
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println(" ");
+        }
 
         //Finding an Element
         System.out.print("Which Element do you want to find? ");
