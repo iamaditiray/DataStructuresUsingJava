@@ -9,6 +9,7 @@ public class Patterns2 {
         int x=sc.nextInt();
 
         //Butterfly Pattern
+
 //        for(int i=1; i<=x; i++){
 //            //1st Part Stars
 //            for(int j=1; j<=i; j++){
@@ -30,6 +31,7 @@ public class Patterns2 {
 //                System.out.print("* ");
 //            }
 //            //Spaces
+
 //            for(int j=1; j<=(2*(x-i)); j++){
 //                System.out.print("  ");
 //            }
@@ -41,6 +43,7 @@ public class Patterns2 {
 //        }
 
         //Solid Rhombus
+
 //        for(int i=1; i<=x; i++){
 //            for (int j=1; j<=(x-i); j++){
 //                System.out.print("  ");
@@ -52,6 +55,7 @@ public class Patterns2 {
 //        }
 
         //Number Pyramid
+
 //        for(int i=1; i<=x; i++){
 //            for(int j=1; j<=(x-i); j++){
 //                System.out.print(" ");
