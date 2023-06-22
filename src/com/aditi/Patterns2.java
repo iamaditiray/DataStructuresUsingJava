@@ -31,7 +31,6 @@ public class Patterns2 {
 //                System.out.print("* ");
 //            }
 //            //Spaces
-
 //            for(int j=1; j<=(2*(x-i)); j++){
 //                System.out.print("  ");
 //            }
