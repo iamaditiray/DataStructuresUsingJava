@@ -2,6 +2,7 @@ package com.aditi;
 import java.util.*;
 // FUNCTIONS AND METHOD
 public class FunctionsAndMethods {
+
     //PrintMyName function
     public static void printMyName(String name){
         System.out.println("Hi " + name + " ! Nice to Meet you!");
