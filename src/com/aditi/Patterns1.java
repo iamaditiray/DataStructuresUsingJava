@@ -5,6 +5,7 @@ public class Patterns1 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
+        //Taking Input of Number of Rows and Columns
 
         System.out.print("Enter Number of Rows:");
         int x=sc.nextInt();
@@ -12,6 +13,7 @@ public class Patterns1 {
         int y=sc.nextInt();
 
         //SOLID Rectangle Pattern
+
         for(int i=1; i<=x; i++){
             for(int j=1; j<=y; j++){
                 System.out.print("* ");
@@ -20,6 +22,7 @@ public class Patterns1 {
         }
 
         //HOLLOW Rectangle pattern
+
         for (int i=1; i<=x;i++){
             for(int j=1; j<=y; j++){
                 if( i==1 || i==x || j==1 || j==y ){
@@ -32,6 +35,7 @@ public class Patterns1 {
         }
 
         // HALF PYRAMID Pattern
+
         for(int i=1; i<=x; i++){
             for(int j=1; j<=i; j++){
                 System.out.print("* ");
@@ -40,6 +44,7 @@ public class Patterns1 {
         }
 
         //Inverted Half Pyramid
+
         for(int i=x; i>=1; i--){
             for (int j=1; j<=i; j++){
                 System.out.print("* ");
@@ -48,6 +53,7 @@ public class Patterns1 {
         }
 
         //Inverted Half Pyramid (Rotated by 180 deg)
+
         for (int i=1; i<=x; i++){
             //SPACES
             for(int j=1; j<=(x-i); j++){
@@ -59,6 +65,7 @@ public class Patterns1 {
         }
 
         //Half Pyramid using Numbers
+
         for (int i=1; i<=x; i++){
             for (int j=1; j<=i; j++){
                 System.out.print(j + " " );
@@ -67,6 +74,7 @@ public class Patterns1 {
         }
 
         //INVERTED HALF PYRAMID WITH NUMBERS
+
         for(int i=x; i>=1; i--){
             for(int j=1; j<=i; j++){
                 System.out.print(j + " ");
@@ -75,6 +83,7 @@ public class Patterns1 {
         }
 
         //FLOYD'S TRIANGLE
+
         int number=1;
         for(int i=1; i<=x; i++){
             for(int j=1; j<=i; j++){
@@ -85,6 +94,7 @@ public class Patterns1 {
         }
 
         //0-1 TRIANGLE
+
         for(int i=1; i<=x; i++){
             for(int j=1; j<=i; j++){
                 if((i+j)%2==0){
