@@ -45,12 +45,12 @@ public class Strings {
         //SubStrings
         String sentence="I am Aditi Ray";
         String firstName=sentence.substring(5,11);
-        String fulllName=sentence.substring(5, sentence.length());
+        String fullName1=sentence.substring(5, sentence.length());
         String lastName1=sentence.substring(11,13);
         String lastName2=sentence.substring(11);
 
         System.out.println(firstName); //Aditi
-        System.out.println(fulllName); //Aditi Ray
+        System.out.println(fullName1); //Aditi Ray
         System.out.println(lastName1); //Ra
         System.out.println(lastName2); //Ray
 
