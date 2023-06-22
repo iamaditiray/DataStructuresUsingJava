@@ -3,6 +3,7 @@ import java.util.*;
 //ARRAYS INTRODUCTION
 public class IntroductionToArrays {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Size of the Array: ");
         int size = sc.nextInt();
@@ -19,7 +20,7 @@ public class IntroductionToArrays {
 //            System.out.println(marks[i]);
 //        }
 
-        //Finding an Element
+        //Finding an Element (By Linear Search)
         System.out.println("Which Element do you want to find? ");
         int element = sc.nextInt();
 
