@@ -3,19 +3,20 @@ import java.util.*;
 
 public class VariablesAndDataTypes {
     public static void main(String[] args) {
-        //output
+
+        //Output
         System.out.println("Hello World!");
         System.out.print("Hello World with Java\n");
         System.out.print("Hello World with Java\n");
         System.out.print("*\n**\n**\n***\n****\n");
-//
-//        //Variable
+
+        //Variable
         String name="Aditi Ray";
         int a=10;
         int b=20;
         double price=25.25;
-//
-//      //DataTypes
+
+        //DataTypes
         int c=10;
         int d=5;
         int sum=c+d;
@@ -28,7 +29,7 @@ public class VariablesAndDataTypes {
         System.out.println(ans);
         System.out.println(ans2);
 
-//      //Input
+        //Input
         Scanner sc=new Scanner(System.in);
         String sentence=sc.nextLine();
         int num=sc.nextInt();
