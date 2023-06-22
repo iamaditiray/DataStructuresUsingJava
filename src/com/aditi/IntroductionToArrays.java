@@ -1,4 +1,4 @@
-package com.apnacollege;
+package com.aditi;
 import java.util.*;
 //ARRAYS INTRODUCTION
 public class IntroductionToArrays {

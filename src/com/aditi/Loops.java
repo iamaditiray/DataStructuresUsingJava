@@ -1,4 +1,4 @@
-package com.apnacollege;
+package com.aditi;
 import java.util.Scanner;
 //LOOPS
 public class Loops {

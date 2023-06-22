@@ -1,4 +1,4 @@
-package com.apnacollege;
+package com.aditi;
 import java.util.*;
 // FUNCTIONS AND METHOD
 public class FunctionsAndMethods {
