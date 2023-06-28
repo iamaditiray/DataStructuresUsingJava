@@ -1,5 +1,5 @@
 package com.aditi;
-import java.util.*;
+import java.util.Scanner;
 // FUNCTIONS AND METHOD
 public class FunctionsAndMethods {
 
@@ -34,19 +34,19 @@ public class FunctionsAndMethods {
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-//        System.out.print("What's Your Name? ");
-//        String name=sc.next();
-//        printMyName(name);//Function Calling
-//        System.out.print("Enter the First Number: ");
-//        int a=sc.nextInt();
-//        System.out.print("Enter the Second Number: ");
-//        int b=sc.nextInt();
-//        System.out.println("The Sum is " + Sum(a,b));
-//        int product=Product(a,b);
-//        System.out.println("Product of the two numbers is: " + product);
+        System.out.print("What's Your Name? ");
+        String name=sc.next();
+        printMyName(name);//Function Calling
+        System.out.print("Enter the First Number: ");
+        int a=sc.nextInt();
+        System.out.print("Enter the Second Number: ");
+        int b=sc.nextInt();
+        System.out.println("The Sum is " + Sum(a,b));
+        int product=Product(a,b);
+        System.out.println("Product of the two numbers is: " + product);
 
         System.out.print("Enter the number: ");
-        int a=sc.nextInt();
-        System.out.println("The Factorial of " + a + " is " + Factorial(a));
+        int a1=sc.nextInt();
+        System.out.println("The Factorial of " + a + " is " + Factorial(a1));
     }
 }
