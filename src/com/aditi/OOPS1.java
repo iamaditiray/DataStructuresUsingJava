@@ -4,7 +4,7 @@ class Student{ //CLASS: Logical representation of data.
     String name;
     int year;
     //Constructors are special type of methods invoked automatically during the time of object creation.
-    Student(){//Non-Parameterized Constructor
+    Student(){//Non-Parameterized Constructor (Constructors without parameters)
         System.out.println("This is a Non-Parameterized Constructor");
     }
     public void printInfo(){ //Method: Function defined inside class.
@@ -17,7 +17,7 @@ class Peer{
     String name;
     int rollNumber;
 
-    Peer(String name, int rollNumber){//Parameterized Constructor
+    Peer(String name, int rollNumber){//Parameterized Constructor (Constructor with parameters)
         this.name /*This is the predefined property of the Class*/=name; /*This is the value assigned to the constructor parameter*/
         this.rollNumber/*This is the predefined property of the Class*/=rollNumber;/*This is the value assigned to the constructor parameter*/
         System.out.println("Roll Number of " + name + " is " + rollNumber);
