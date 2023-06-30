@@ -20,8 +20,8 @@ class Classroom{
         System.out.println("There are " + noOfStudents + " students"
                            + " and " + noOfTeachers + " teachers ");
         System.out.println("They are : ");
-        for(int i=0; i<names.length; i++){
-            System.out.println(names[i]);
+        for (String name : names) {
+            System.out.println(name);
         }
     }
 
