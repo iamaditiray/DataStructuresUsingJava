@@ -1,4 +1,4 @@
-package com.aditi;
+package com.aditi.OOPS;
 //POLYMORPHISM --> Different forms.
 //Two Types of Polymorphism
     /* 1. Compile Time Polymorphism (Method Overloading)

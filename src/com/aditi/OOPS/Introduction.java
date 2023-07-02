@@ -1,4 +1,4 @@
-package com.aditi;
+package com.aditi.OOPS;
 
 class Student{ //CLASS: Logical representation of data.
     String name;
@@ -44,7 +44,7 @@ class Members{
 
 }
 
-public class OOPS1 {
+public class Introduction {
     public static void main(String[] args) {
         Student S1=new Student(); //Initialisation of object and invoking constructor
         //Assigning properties to Object

@@ -1,4 +1,4 @@
-package com.aditi;
+package com.aditi.OOPS;
 class details{
     private String userID;
     private String Password = "Aditi1234";

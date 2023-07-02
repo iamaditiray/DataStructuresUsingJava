@@ -1,4 +1,4 @@
-package com.aditi;
+package com.aditi.OOPS;
 //Inheritance : Process of inheriting all the properties and behaviours of parent object to a child object
 
     //Single Level Inheritance : Only one child class is derived by parent class
