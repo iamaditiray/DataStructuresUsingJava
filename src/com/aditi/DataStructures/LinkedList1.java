@@ -22,7 +22,7 @@ public class LinkedList1 {
     }
 
     //ADDING AN ELEMENT AT THE FIRST POSITION OF THE LINKED-LIST
-    public void addAtFirst(String data){
+    public void addFirst(String data){
         Node newNode=new Node(data);
         if(head==null){
             head=newNode;
@@ -34,7 +34,7 @@ public class LinkedList1 {
     }
 
     //ADDING AN ELEMENT AT THE LAST POSITION OF THE LINKED LIST
-    public void addAtLast(String data){
+    public void addLast(String data){
         Node newNode=new Node(data);
         if(head==null){
             head=newNode;
@@ -64,7 +64,7 @@ public class LinkedList1 {
     }
 
     //DELETING AN ELEMENT FROM THE LAST
-    public void deleteFromFirst(){
+    public void removeFirst(){
         if(head==null){
             System.out.println("List is empty. Nothing to Delete");
         }
@@ -73,7 +73,7 @@ public class LinkedList1 {
     }
 
     //DELETING AN ELEMENT FROM THE LAST
-    public void deleteFromLast(){
+    public void removeLast(){
         if(head==null){
             System.out.println("List is Empty");
         }
@@ -99,29 +99,29 @@ public class LinkedList1 {
     }
     public static void main(String[] args) {
         LinkedList1 list=new LinkedList1();
-        list.addAtFirst("List");
-        list.addAtFirst("a ");
-        list.addAtFirst("is ");
-        list.addAtFirst(" This ");
+        list.addFirst("List");
+        list.addFirst("a ");
+        list.addFirst("is ");
+        list.addFirst(" This ");
         list.printList();
         System.out.println();
-        list.addAtLast("Adding ");
-        list.addAtLast("an ");
-        list.addAtLast("Element ");
-        list.addAtLast("to ");
-        list.addAtLast("the ");
-        list.addAtLast("last ");
+        list.addLast("Adding ");
+        list.addLast("an ");
+        list.addLast("Element ");
+        list.addLast("to ");
+        list.addLast("the ");
+        list.addLast("last ");
         list.printList();
         System.out.println();
-        list.deleteFromFirst();
+        list.removeFirst();
         list.printList();
         System.out.println();
-        list.deleteFromLast();
+        list.removeLast();
         list.printList();
         System.out.println();
         System.out.println("The Size of the List is " + list.getSize());
-        list.deleteFromLast();
-        list.deleteFromFirst();
+        list.removeLast();
+        list.removeFirst();
         list.printList();
         System.out.println();
         System.out.println("Now size is " + list.getSize());
