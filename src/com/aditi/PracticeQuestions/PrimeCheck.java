@@ -13,12 +13,13 @@ public class PrimeCheck {
         }else if(a==1){
             System.out.println("1 is neither prime nor composite.");
             return false;
-        }else if(a>1){
+        }else {
             for(int i=2; i<a; i++){
                 if(a%i==0){
                     return false;
                 }
             }
-        } return true;
+        }
+        return true;
     }
 }
